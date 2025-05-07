@@ -23,7 +23,7 @@
 
 .container {
     width: 370px;
-    height: 130vh;
+    height: 100%;
     display: flex;
     align-items: center;
 }
