@@ -24,6 +24,8 @@
 .container {
     width: 370px;
     height: 130vh;
+    display: flex;
+    align-items: center;
 }
 
     @media (max-height: 350px) {
