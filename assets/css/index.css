@@ -23,9 +23,7 @@
 
 .container {
     width: 370px;
-    height: 150vh;
-    display: flex;
-    align-items: center;
+    height: 100%;
 }
 
     @media (max-height: 350px) {
