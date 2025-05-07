@@ -6,11 +6,6 @@
     margin: 0px;
 }
 
-@media (max-width: 900px) {
-    .container {
-        height: fit-content;
-    }
-}
 
 .fContainer {
     background-color: rgb(7, 7, 7);
@@ -34,7 +29,7 @@
 .container {
     justify-content: center;
     width: 370px;
-    height: fit-content;
+    height: 100%;
     background-color: rgb(20, 20, 20);
     border-radius: 0px 0px 10px 10px;
     z-index: 2;
