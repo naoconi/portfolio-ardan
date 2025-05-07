@@ -34,10 +34,11 @@
 .container {
     justify-content: center;
     width: 370px;
-    height: 865px;
+    height: fit-content;
     background-color: rgb(20, 20, 20);
     border-radius: 0px 0px 10px 10px;
     z-index: 2;
+    padding-bottom: 30px;
 }
 
 /* MAIN CONTENT */
