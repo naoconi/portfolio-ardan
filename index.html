@@ -1,163 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-
-*, html, body {
-    padding: 0px;
-    margin: 0px;
-}
-
-
-.fContainer {
-    background-color: rgb(9, 9, 9);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
-    width: 370px;
-    height: 100%;
-}
-
-/* MAIN CONTENT */
-
-.main-content {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(20, 20, 20);
-    border-radius: 0px 0px 10px 10px;
-    padding-bottom: 30px;
-}
-
-.cover > img {
-    width: 370px;
-    height: 140px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.profile-img {
-    position: relative;
-    top: -60px;
-}
-
-    .profile-img > img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 50px;
-        border: 2px solid rgb(20, 20, 20);
-    }
-
-
-.name-wrapper {
-    display: flex;
-    justify-content: center;
-    font-family: "ubuntu", sans-serif;
-    margin-top: -50px;
-}
-
-    .name-wrapper > a {
-        text-decoration: none;
-        color: white;
-        font-weight: 700;
-        font-size: 20px;
-    }
-
-        .name-ardan > span {
-            color: rgb(100, 100, 100);
-            font-size: 11px;
-            cursor: default;
-            font-family: "ubuntu", sans-serif;
-        }
-
-.iconTitle {
-    display: flex;
-    align-items: center;
-    padding-left: 5px;
-}
-
-    .iconTitle > img {
-        width: 16px;
-        padding: 2px;
-    }
-
-.link {
-    margin-top: 30px;
-}
-
-.link-padding {
-    padding: 5px;
-}
-
-    .link-padding > a {
-        text-decoration: none;
-    }
-
-.link-wrapper {
-    background-color: white;
-    border: 1px solid white;
-    width: 260px;
-    height: 40px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.link-content {
-    display: flex;
-    align-items: center;
-}
-
-    .link-content > img {
-        width: 13px;
-        height: 13px;
-    }
-
-.title-content {
-    padding-left: 5px;
-    font-family: "ubuntu", sans-serif;
-}
-    
-    .title-content > span {
-        display: flex;
-        align-items: center;
-        color: rgb(0, 0, 0);
-        font-size: 13px;
-    }
-
-
-
-.title-high {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-family: "ubuntu", sans-serif;
-}
-
-    .title-high > span {
-        color: white;
-        font-weight: 800;
-        font-size: 20px;
-    }
-
-
-.high-wrapper {
-    display: flex;
-}
-
-.high-wrapper > a {
-    padding: 2px;
-}
-
-    .high-wrapper > a > img {
-        width: 140px;
-        border-radius: 10px;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <title>Ardan Portofolio Page</title>
+</head>
+<body>
+    <div class="fContainer">
+        <div class="container">
+            <div class="main-content">
+                <div class="cover-bac">
+                    <span class="cover">
+                        <img src="/assets/img/backgroud/Creative-Anime-Girl-and-Cat-Wallpaper-for-Wall-M.jpg">
+                    </span>
+                </div>
+                <div class="profile-img">
+                    <img src="/assets/img/profile/5.gif">
+                </div>
+                <div class="name-ardan">
+                    <div class="name-wrapper">
+                        <a href="https://www.instagram.com/ardan.psd/"><p>Armand Dani</p></a>
+                        <div class="iconTitle">
+                            <img src="/assets/img/icon/adobe-after-effects-icon.png" title="AfterEffect">
+                            <img src="/assets/img/icon/adobe-photoshop-icon.png" title="Photoshop">
+                        </div>
+                    </div>
+                    <span>Graphics Designer and Video Creator</span>
+                </div>
+                <div class="link">
+                    <div class="link-padding">
+                        <a href="https://www.instagram.com/ardan.psd/">
+                            <div class="link-wrapper">
+                                <div class="link-content">
+                                    <img src="/assets/img/icon/black-instagram-icon.png">
+                                    <div class="title-content">
+                                        <span>Instagram</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="link-padding">
+                        <a href="https://drive.google.com/drive/folders/1Is-jTiV1MH5R8sfQDtfbDoEXui9YXuDC?usp=drive_link">
+                            <div class="link-wrapper">
+                                <div class="link-content">
+                                    <img src="/assets/img/icon/icons8-google-drive-50.png" style="width: 15px; height: 15px;">
+                                    <div class="title-content">
+                                        <span>GoogleDrive</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="title-high">
+                    <span>HIGHLIGHT POST</span>
+                </div>
+                <div class="highlight-post">
+                    <div class="high-wrapper">
+                        <a href="#"><img src="/assets/img/post/ardan.psd.jpg"></a>
+                        <a href="#"><img src="/assets/img/post/SNOWBREAK2.jpg"></a>
+                    </div>
+                    <div class="high-wrapper">
+                        <a href="#"><img src="/assets/img/post/READY-STEADY-ARDAN-PSD.jpg"></a>
+                        <a href="#"><img src="/assets/img/post/EATCHEL-TAGWALL.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/index.js"></script>
+</body>
+</html>
