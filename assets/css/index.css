@@ -6,6 +6,12 @@
     margin: 0px;
 }
 
+@media (max-width: 500px) {
+    .fContainer {
+        height: 100%;
+    }
+}
+
 
 .fContainer {
     background-color: rgb(9, 9, 9);
@@ -13,6 +19,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -21,26 +28,13 @@
 
 /* MAIN CONTENT */
 
-.wrapper-content {
+.main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(20, 20, 20);
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 30px;
-}
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cover-bac {
-    display: flex;
-    top: 10vh;
-    display: flex;
-    justify-content: center;
 }
 
 .cover > img {
