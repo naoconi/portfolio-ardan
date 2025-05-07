@@ -6,6 +6,11 @@
     margin: 0px;
 }
 
+@media (max-width: 900px) {
+    .container {
+        height: fit-content;
+    }
+}
 
 .fContainer {
     background-color: rgb(7, 7, 7);
@@ -19,6 +24,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     z-index: -1;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -27,7 +34,7 @@
 .container {
     justify-content: center;
     width: 370px;
-    height: 138vh;
+    height: 865px;
     background-color: rgb(20, 20, 20);
     border-radius: 0px 0px 10px 10px;
     z-index: 2;
@@ -151,9 +158,11 @@
         font-size: 13px;
     }
 
+
+
 .title-high {
-    margin-top: 90px;
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     font-family: "ubuntu", sans-serif;
 }
 
@@ -164,12 +173,6 @@
     }
 
 
-.highlight-post {
-    background-color: rgb(17, 17, 17);
-    border-radius: 5px;
-    padding: 5px;
-}
-
 .high-wrapper {
     display: flex;
 }
@@ -179,9 +182,6 @@
 }
 
     .high-wrapper > a > img {
-        width: 130px;
+        width: 140px;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
